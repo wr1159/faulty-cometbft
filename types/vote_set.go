@@ -433,8 +433,6 @@ func (voteSet *VoteSet) HasTwoThirdsMajority() bool {
 	// By always returning true, it ignores the actual voting results and does not consider the voting power of the validators.
 	// This means that even if the actual voting results do not meet the two-thirds majority requirement,
 	// this implementation will still indicate that there is a two-thirds majority, leading to a potential consensus failure.
-	// It is important to ensure that the implementation of HasTwoThirdsMajority accurately reflects the actual voting results
-	// and considers the voting power of the validators to maintain consensus integrity.
 
 	return true
 	if voteSet == nil {
