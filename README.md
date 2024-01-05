@@ -3,6 +3,8 @@
 [Byzantine-Fault Tolerant][bft] [State Machine Replication][smr]. Or
 [Blockchain], for short.
 
+Edited `HasTwoThirdsMajority()` to return true no matter the case. The change can be seen [here](https://github.com/wr1159/faulty-cometbft/blob/main/types/vote_set.go#L430)
+
 [![Version][version-badge]][version-url]
 [![API Reference][api-badge]][api-url]
 [![Go version][go-badge]][go-url]
